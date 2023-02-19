@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+.mobile {
+    display: block;
+}
+
+
+
+.mobile{
+    display:none;
+}
+}
+
+.sidenavMenu {
+    height: 100%;
+    width: 85%;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    right: -1000px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: .8s;
+}
