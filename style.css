@@ -9,6 +9,10 @@
 .mobile {
     display: block;
 }
+::-webkit-scrollbar {
+    width: 0px!important;
+    height: 2px
+}
 
 
 
@@ -27,4 +31,15 @@
     background-color: #fff;
     overflow: hidden;
     transition: .8s;
+}
+
+#toggleSafetyDiv{
+    position: fixed;
+    top: 0;
+    
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: scroll;
 }
