@@ -44,3 +44,10 @@
     overflow-y: scroll;
 }
 
+.backgroundImages{
+    width: 100%;
+    margin-left: -1280px;
+    position: absolute;
+
+    
+}
